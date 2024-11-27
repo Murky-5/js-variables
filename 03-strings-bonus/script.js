@@ -3,6 +3,7 @@ const cityName = 'City'; // NON MODIFICARE QUESTA RIGA
 const shoppingList = 'mele, banane, arance, uva'; // NON MODIFICARE QUESTA RIGA
 const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 
+
 // 1. Cerca un carattere in una stringa
 // Stampa l'INDICE con cui viene trovato
 // il carattere Y nella variabile city
@@ -35,5 +36,6 @@ console.log(cityNameConcat); // Output: "New York City"
 
 // 5. Tutto in maiscolo
 // Trasforma tutto in maiscuolo la stringa della variabile hello
-const upperCaseHello = '';
+
+const upperCaseHello = hello.toUpperCase();
 console.log(upperCaseHello); // Output: "HELLO"
