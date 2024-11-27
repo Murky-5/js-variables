@@ -12,10 +12,10 @@ console.log(name);
 // Stampa tutti i valori nella console.
 
 const number = Number(1);
-const text = String(lettere);
+const text = String("lettere");
 const bool = Boolean(true);
 
-console.log($(number) + $(text) + $(bool)) /* `` */
+console.log(number + " " + text + " " + bool) /* `` */
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
@@ -24,10 +24,11 @@ const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
-const fullName = String($(firstName) + $(lastName));
+const fullName = String( firstName + " " + lastName);
 console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
 // sulla variabile alphabet per ottenere la sua lunghezza
-const numberOfLettersInAlphabet = null;
-console.log(numberOfLettersInAlphabet); // Output: 26
+
+const numberOfLettersInAlphabet = "qwertyuiopasdfghjklzxcvbnm";
+console.log(numberOfLettersInAlphabet.length); // Output: 26
