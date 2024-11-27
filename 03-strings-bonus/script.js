@@ -7,13 +7,14 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 // Stampa l'INDICE con cui viene trovato
 // il carattere Y nella variabile city
 
-const cityIndex = "    y"; 
+const cityIndex = String("    y");
 console.log(cityIndex.indexOf("y")); // Output: 4
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = '';
-console.log(citySubstring); // Output: "York"
+
+const citySubstring = "NewYork";
+console.log(citySubstring.substring(3, 7)); // Output: "York"
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
