@@ -11,6 +11,12 @@ console.log(name);
 // un numero, una stringa e un valore booleano.
 // Stampa tutti i valori nella console.
 
+const number = Number(1);
+const text = String(lettere);
+const bool = Boolean(true);
+
+console.log($(number) + $(text) + $(bool))
+
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
 // in console la stringa con il nome completo
